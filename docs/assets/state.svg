@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='300' viewBox='0 0 1000 300'>
+
+  <defs>
+    <marker id='arrow' markerWidth='12' markerHeight='10' refX='11' refY='5'
+            orient='auto' markerUnits='userSpaceOnUse'>
+      <path d='M0,1 L11,5 L0,9 z' fill='black'/>
+    </marker>
+  </defs>
+<rect x='0' y='0' width='1000' height='300' fill='white'/>
+<circle cx='40' cy='150' r='11' fill='black'/>
+<ellipse cx='200' cy='150' rx='110' ry='50' fill='(255, 248, 224)' stroke='black' stroke-width='1.5'/>
+<text x='200' y='156' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>待处理</text>
+<text x='200' y='180' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>PENDING</text>
+<ellipse cx='500' cy='150' rx='110' ry='50' fill='(255, 248, 224)' stroke='black' stroke-width='1.5'/>
+<text x='500' y='156' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>处理中</text>
+<text x='500' y='180' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>PROCESSING</text>
+<ellipse cx='800' cy='150' rx='110' ry='50' fill='(255, 248, 224)' stroke='black' stroke-width='1.5'/>
+<text x='800' y='156' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>已完成</text>
+<text x='800' y='180' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>COMPLETED</text>
+<circle cx='940' cy='150' r='15' fill='white' stroke='black' stroke-width='1.6'/><circle cx='940' cy='150' r='10' fill='black'/>
+<line x1='52' y1='150' x2='87' y2='150' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<line x1='312' y1='150' x2='386' y2='150' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<line x1='612' y1='150' x2='686' y2='150' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<line x1='912' y1='150' x2='922' y2='150' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/>
+<text x='350' y='112' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>开始维修</text>
+<text x='650' y='112' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle'>完成维修</text>
+<text x='50' y='126' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='14px' fill='black' text-anchor='middle'>初始状态</text>
+<text x='940' y='194' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='14px' fill='black' text-anchor='middle'>终态</text>
+</svg>

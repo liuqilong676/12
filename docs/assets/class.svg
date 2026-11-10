@@ -1,0 +1,36 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='470' viewBox='0 0 900 470'>
+
+  <defs>
+    <marker id='arrow' markerWidth='12' markerHeight='10' refX='11' refY='5'
+            orient='auto' markerUnits='userSpaceOnUse'>
+      <path d='M0,1 L11,5 L0,9 z' fill='black'/>
+    </marker>
+  </defs>
+<rect x='0' y='0' width='900' height='470' fill='white'/>
+<rect x='40' y='80' width='330' height='49' fill='rgb(222,235,247)' stroke='black' stroke-width='1.5'/>
+<text x='205.0' y='109.5' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black' text-anchor='middle' font-weight='bold'>Device 设备</text>
+<rect x='40' y='129' width='330' height='96' fill='rgb(255,255,255)' stroke='black' stroke-width='1.5'/>
+<text x='52' y='157' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- deviceId : String</text>
+<text x='52' y='185' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- name : String</text>
+<text x='52' y='213' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- location : String</text>
+<rect x='40' y='225' width='330' height='40' fill='rgb(255,255,255)' stroke='black' stroke-width='1.5'/>
+<text x='52' y='253' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>+ describe() : String</text>
+<rect x='540' y='80' width='340' height='49' fill='rgb(222,235,247)' stroke='black' stroke-width='1.5'/>
+<text x='710.0' y='109.5' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black' text-anchor='middle' font-weight='bold'>WorkOrder 工单</text>
+<rect x='540' y='129' width='340' height='152' fill='rgb(255,255,255)' stroke='black' stroke-width='1.5'/>
+<text x='552' y='157' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- orderId : String</text>
+<text x='552' y='185' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- deviceId : String</text>
+<text x='552' y='213' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- description : String</text>
+<text x='552' y='241' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- status : String</text>
+<text x='552' y='269' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>- reporter : String</text>
+<rect x='540' y='281' width='340' height='68' fill='rgb(255,255,255)' stroke='black' stroke-width='1.5'/>
+<text x='552' y='309' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>+ transitionTo(目标) : void</text>
+<text x='552' y='337' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='19px' fill='black'>+ describe() : String</text>
+<line x1='370' y1='190' x2='540' y2='190' stroke='black' stroke-width='1.5'/>
+<text x='455' y='177' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='middle'>报修</text>
+<text x='384' y='169' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='start'>1</text>
+<text x='506' y='169' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='start'>0..*</text>
+<text x='40' y='45' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='21px' fill='black' text-anchor='start' font-weight='bold'>校园物联网设备报修：类图</text>
+<text x='40' y='408' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='16px' fill='black' text-anchor='start'>约束：status ∈ {PENDING, PROCESSING, COMPLETED}；</text>
+<text x='40' y='434' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='16px' fill='black' text-anchor='start'>一台设备对应 0..* 张工单，每张工单对应 1 台设备。</text>
+</svg>

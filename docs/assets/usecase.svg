@@ -1,0 +1,31 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='620' viewBox='0 0 980 620'>
+
+  <defs>
+    <marker id='arrow' markerWidth='12' markerHeight='10' refX='11' refY='5'
+            orient='auto' markerUnits='userSpaceOnUse'>
+      <path d='M0,1 L11,5 L0,9 z' fill='black'/>
+    </marker>
+  </defs>
+<rect x='0' y='0' width='980' height='620' fill='white'/>
+<rect x='230' y='40' width='520' height='540' fill='(232, 240, 250)' stroke='black' stroke-width='1.5'/>
+<line x1='230' y1='86' x2='750' y2='86' stroke='black' stroke-width='1.5'/>
+<text x='490.0' y='69.0' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='20px' fill='black' text-anchor='middle' font-weight='bold'>校园物联网设备报修系统</text>
+<g stroke='black' stroke-width='1.6' fill='none'><circle cx='80' cy='240' r='13'/><line x1='80' y1='253' x2='80' y2='295'/><line x1='56' y1='268' x2='104' y2='268'/><line x1='80' y1='295' x2='60' y2='330'/><line x1='80' y1='295' x2='100' y2='330'/></g>
+<text x='80' y='353' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='middle'>报修人</text>
+<g stroke='black' stroke-width='1.6' fill='none'><circle cx='900' cy='240' r='13'/><line x1='900' y1='253' x2='900' y2='295'/><line x1='876' y1='268' x2='924' y2='268'/><line x1='900' y1='295' x2='880' y2='330'/><line x1='900' y1='295' x2='920' y2='330'/></g>
+<text x='900' y='353' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='middle'>维修人员</text>
+<ellipse cx='490' cy='170' rx='150' ry='46' fill='(255, 248, 224)' stroke='black' stroke-width='1.5'/>
+<text x='490' y='176' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='middle'>查看设备信息</text>
+<ellipse cx='490' cy='300' rx='150' ry='46' fill='(255, 248, 224)' stroke='black' stroke-width='1.5'/>
+<text x='490' y='306' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='middle'>提交报修</text>
+<ellipse cx='490' cy='430' rx='150' ry='46' fill='(255, 248, 224)' stroke='black' stroke-width='1.5'/>
+<text x='490' y='436' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='17px' fill='black' text-anchor='middle'>更新工单状态</text>
+<line x1='112' y1='268' x2='340' y2='176' stroke='black' stroke-width='1.5'/>
+<line x1='112' y1='300' x2='340' y2='300' stroke='black' stroke-width='1.5'/>
+<line x1='868' y1='268' x2='640' y2='176' stroke='black' stroke-width='1.5'/>
+<line x1='868' y1='300' x2='640' y2='430' stroke='black' stroke-width='1.5'/>
+<text x='300' y='213' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='13px' fill='black' text-anchor='start'>FR-01</text>
+<text x='300' y='325' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='13px' fill='black' text-anchor='start'>FR-02</text>
+<text x='600' y='213' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='13px' fill='black' text-anchor='start'>FR-01</text>
+<text x='690' y='353' font-family='SimHei,Microsoft YaHei,sans-serif' font-size='13px' fill='black' text-anchor='start'>FR-03</text>
+</svg>
