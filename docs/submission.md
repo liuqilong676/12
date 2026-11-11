@@ -1,6 +1,6 @@
 # 最终提交索引
 
-小组仓库地址：https://github.com/<组员A的GitHub用户名>/iot-repair-group01 （待填写，注意 01 换成实际组号）
+小组仓库地址：https://github.com/<liuqilong676>/iot-repair-group12
 
 小组仓库首页（验收以 `main` 为准）：同上
 
