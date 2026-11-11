@@ -2,11 +2,11 @@
 
 组号：group01（仓库名 `iot-repair-group01`，请按实际组号替换）
 
-成员A GitHub用户名：待填写
+成员A GitHub用户名：liuqilong676
 
-成员B GitHub用户名：待填写
+成员B GitHub用户名：milkdragon12138
 
-成员C GitHub用户名：待填写
+成员C GitHub用户名：434990788
 
 本组选定语言：**Python**（Java 起始文件保留在 `src/java`，本组未实现，不作提交）
 
