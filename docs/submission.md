@@ -15,8 +15,6 @@
 | 张启瑞 | 434990788 | https://github.com/liuqilong676/12/commit/1588352b7d58757ad36012f470e60dbd2d22da93 | `feat/status-c` | 待填写 | 待填写（评审 A 的需求 PR） |
 | 刘祺龙| liuqilong676 | 待填写 | `docs/submission-a` | 待填写 | 待填写（由组员检查后合并） |
 
-> 四人组增加 D：`docs/acceptance-d`，负责 `docs/acceptance.md` 验收清单与从 `main`
-> 下载后的独立复测记录，评审顺序改为 A 审 B、B 审 C、C 审 D、D 审 A；D 不改写 C 的
 > 测试结果文件。
 
 ## 成果清单
