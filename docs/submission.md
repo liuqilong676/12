@@ -10,7 +10,7 @@
 
 | 成员 | GitHub用户名 | 任务Issue链接 | 分支 | 主要PR链接 | 评审记录链接 |
 | --- | --- | --- | --- | --- | --- |
-| 刘祺龙| liuqilong676 | 待填写 | `docs/requirements-a` | 待填写 | 待填写（评审 B 的模型 PR） |
+| 刘祺龙| liuqilong676 | https://github.com/liuqilong676/12/compare/main...docs/requirements-liuqilong676 | `docs/requirements-a` | 待填写 | 待填写（评审 B 的模型 PR） |
 | 周阳 | milkdragon12138 | 待填写 | `docs/models-b` | 待填写 | 待填写（评审 C 的代码 PR） |
 | 张启瑞 | 434990788 | 待填写 | `feat/status-c` | 待填写 | 待填写（评审 A 的需求 PR） |
 | 刘祺龙| liuqilong676 | 待填写 | `docs/submission-a` | 待填写 | 待填写（由组员检查后合并） |
