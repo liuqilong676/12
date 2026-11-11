@@ -10,10 +10,10 @@
 
 | 成员 | GitHub用户名 | 任务Issue链接 | 分支 | 主要PR链接 | 评审记录链接 |
 | --- | --- | --- | --- | --- | --- |
-| A（组长） | 待填写 | 待填写 | `docs/requirements-a` | 待填写 | 待填写（评审 B 的模型 PR） |
-| B | 待填写 | 待填写 | `docs/models-b` | 待填写 | 待填写（评审 C 的代码 PR） |
-| C | 待填写 | 待填写 | `feat/status-c` | 待填写 | 待填写（评审 A 的需求 PR） |
-| A（收尾） | 待填写 | 待填写 | `docs/submission-a` | 待填写 | 待填写（由组员检查后合并） |
+| 刘祺龙| liuqilong676 | 待填写 | `docs/requirements-a` | 待填写 | 待填写（评审 B 的模型 PR） |
+| 周阳 | milkdragon12138 | 待填写 | `docs/models-b` | 待填写 | 待填写（评审 C 的代码 PR） |
+| 张启瑞 | 434990788 | 待填写 | `feat/status-c` | 待填写 | 待填写（评审 A 的需求 PR） |
+| 刘祺龙| liuqilong676 | 待填写 | `docs/submission-a` | 待填写 | 待填写（由组员检查后合并） |
 
 > 四人组增加 D：`docs/acceptance-d`，负责 `docs/acceptance.md` 验收清单与从 `main`
 > 下载后的独立复测记录，评审顺序改为 A 审 B、B 审 C、C 审 D、D 审 A；D 不改写 C 的
