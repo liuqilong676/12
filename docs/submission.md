@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 刘祺龙| liuqilong676 | https://github.com/liuqilong676/12/compare/main...docs/requirements-liuqilong676 | `docs/requirements-a` | 待填写 | 待填写（评审 B 的模型 PR） |
 | 周阳 | milkdragon12138 | https://github.com/liuqilong676/12/compare/docs/models-milkdragon12138...feat/status-434990788 | `docs/models-b` | 待填写 | 待填写（评审 C 的代码 PR） |
-| 张启瑞 | 434990788 | 待填写 | `feat/status-c` | 待填写 | 待填写（评审 A 的需求 PR） |
+| 张启瑞 | 434990788 | https://github.com/liuqilong676/12/commit/1588352b7d58757ad36012f470e60dbd2d22da93 | `feat/status-c` | 待填写 | 待填写（评审 A 的需求 PR） |
 | 刘祺龙| liuqilong676 | 待填写 | `docs/submission-a` | 待填写 | 待填写（由组员检查后合并） |
 
 > 四人组增加 D：`docs/acceptance-d`，负责 `docs/acceptance.md` 验收清单与从 `main`
