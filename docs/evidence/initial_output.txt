@@ -1,0 +1,5 @@
+T01 FAIL: PENDING -> PROCESSING, expected=True, actual=False
+T02 FAIL: PROCESSING -> COMPLETED, expected=True, actual=False
+T03 PASS: PENDING -> COMPLETED, expected=False, actual=False
+T04 PASS: COMPLETED -> PROCESSING, expected=False, actual=False
+Summary: 2/4 passed
