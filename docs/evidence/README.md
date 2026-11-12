@@ -7,6 +7,7 @@
 | 文件 | 内容 |
 | --- | --- |
 | `initial_run/status_rule.py` | 未实现起始版：保留状态常量，`can_transition` 对所有输入返回 `False` |
+| `initial_run/test_status_rule.py` | 规定的 4 项测试，预期值未修改 |
 | `initial_output.txt` | 在未实现版上执行 `python test_status_rule.py` 的原始输出：2/4 passed，退出码 1 |
 | `final_output.txt` | 补齐两条允许转换后的原始输出：4/4 passed，退出码 0 |
 
@@ -15,6 +16,13 @@
 在 `src/python` 目录下执行：
 
 ```text
+python test_status_rule.py
+```
+
+初始版可直接在 `docs/evidence/initial_run` 目录复现：
+
+```text
+cd docs/evidence/initial_run
 python test_status_rule.py
 ```
 

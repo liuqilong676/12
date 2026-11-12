@@ -1,4 +1,4 @@
-﻿MAIN_COMMIT=3fea21feba5cf0fa083daa09a7b44e1ee6b9ff59
+MAIN_COMMIT=3fea21feba5cf0fa083daa09a7b44e1ee6b9ff59
 ARCHIVE=liuqilong676-12-3fea21f
 COMMAND=python test_status_rule.py
 EXIT=0
