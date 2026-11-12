@@ -2,7 +2,7 @@
 
 语言与版本：Python 3.12.14（Windows 11，64 位）
 
-测试人员 GitHub 用户名：待填写（组员 C）
+测试人员 GitHub 用户名：434990788（组员 C）
 
 运行命令（在 `src/python` 目录下执行）：
 
@@ -68,7 +68,8 @@ OK
 本次规定 4 项测试，其他状态组合是否额外执行：**已额外执行**，见上方补充测试
 （状态规则边界 3 项，合计覆盖 9 种组合，含 3 种状态不变、未知值、None、大小写不符）。
 
-从个人分支下载 ZIP 复测情况：待填写（由组员 C 在 `feat/status-c` 分支下载 ZIP 后复测，
-结果应与上表一致）。
+从个人分支下载 ZIP 复测情况：本地按 `feat/status-c` 的同一目录结构打包并解压到新目录，
+执行 `python test_status_rule.py`，结果为 `Summary: 4/4 passed`，退出码 0；
+GitHub 网页的 `Code → Download ZIP` 复测由组员 C 在推送后确认。
 
-从 `main` 下载 ZIP 最终复测情况：待填写，或在 `docs/submission.md` 记录。
+从 `main` 下载 ZIP 最终复测情况：待合并后填写，或在 `docs/submission.md` 记录。
