@@ -55,7 +55,7 @@
   `COMPLETED → PENDING`、任何状态不变、未知状态值、大小写不符（`pending`）、`None`。
 - **正常结果**：工单状态更新并记录维修人员；开始维修写入 `started_at`，完成维修写入
   `completed_at`。
-- **异常结果**：被拒绝时抛出 `InvalidTransitionError`，工单状态保持原值，其他字段不被修改，
+- **异常结果**：被拒绝时抛出 `InvalidTransitionError`，工单状态保持原，其他字段不被修改，
   不产生“半更新”的中间状态。
 - **验收条件**：
   1. 规定 4 项测试 T01–T04 全部 PASS（见 `docs/test-results.md`）；
