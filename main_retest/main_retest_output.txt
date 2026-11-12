@@ -1,0 +1,9 @@
+﻿MAIN_COMMIT=3fea21feba5cf0fa083daa09a7b44e1ee6b9ff59
+ARCHIVE=liuqilong676-12-3fea21f
+COMMAND=python test_status_rule.py
+EXIT=0
+T01 PASS: PENDING -> PROCESSING, expected=True, actual=True
+T02 PASS: PROCESSING -> COMPLETED, expected=True, actual=True
+T03 PASS: PENDING -> COMPLETED, expected=False, actual=False
+T04 PASS: COMPLETED -> PROCESSING, expected=False, actual=False
+Summary: 4/4 passed

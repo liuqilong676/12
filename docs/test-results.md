@@ -68,8 +68,13 @@ OK
 本次规定 4 项测试，其他状态组合是否额外执行：**已额外执行**，见上方补充测试
 （状态规则边界 3 项，合计覆盖 9 种组合，含 3 种状态不变、未知值、None、大小写不符）。
 
-从个人分支下载 ZIP 复测情况：本地按 `feat/status-c` 的同一目录结构打包并解压到新目录，
-执行 `python test_status_rule.py`，结果为 `Summary: 4/4 passed`，退出码 0；
-GitHub 网页的 `Code → Download ZIP` 复测由组员 C 在推送后确认。
+从个人分支下载 ZIP 复测情况：已从 `feat/status-c` 的 Code → Download ZIP 下载到新目录，
+执行 `python test_status_rule.py`，结果与上表一致（`Summary: 4/4 passed`，退出码 0）。
 
-从 `main` 下载 ZIP 最终复测情况：待合并后填写，或在 `docs/submission.md` 记录。
+从 `main` 下载 ZIP 最终复测情况：已从 main 归档 ZIP（commit `3fea21feba5cf0fa083daa09a7b44e1ee6b9ff59`）解压到新目录，进入 `src/python` 执行 `python test_status_rule.py`，T01–T04 全部 PASS，`Summary: 4/4 passed`，退出码 0。
+
+## 证据位置
+
+- `main_retest/main_retest_output.txt`：main 归档 ZIP 复测的 commit、解压目录、命令、退出码与四项原始输出。
+- `docs/evidence/initial_output.txt`、`docs/evidence/final_output.txt`：初始 2/4 与最终 4/4 原始输出。
+- `docs/evidence/initial_run/status_rule.py`：未实现起始版源码（`can_transition` 返回 `False`）。
