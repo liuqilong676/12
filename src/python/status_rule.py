@@ -23,7 +23,7 @@ STATUS_LABELS = {
 }
 
 
-def can_transition(current, target):
+def can_transition(current: str, target: str) -> bool:
     """判断工单能否从 current 转到 target。
 
     参数:
@@ -37,6 +37,6 @@ def can_transition(current, target):
     return (current, target) in ALLOWED_TRANSITIONS
 
 
-def status_label(status):
+def status_label(status: str) -> str:
     """返回状态的中文名称，未知状态原样返回。"""
     return STATUS_LABELS.get(status, status)

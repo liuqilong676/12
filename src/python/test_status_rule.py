@@ -12,7 +12,7 @@ if __name__ == "__main__":
     passed = 0
     for name, current, target, expected in CASES:
         actual = can_transition(current, target)
-        ok = actual is expected
+        ok = actual == expected
         passed += int(ok)
         verdict = "PASS" if ok else "FAIL"
         print(f"{name} {verdict}: {current} -> {target}, "
